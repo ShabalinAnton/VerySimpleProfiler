@@ -153,6 +153,6 @@ struct VerySimpleBlock
 #define VERY_SIMPLE_FUNC_PROFILE() VerySimpleProfilerSpace::VerySimpleBlock verySimpleProfilerBlock##__LINE__(__FUNCTION__);
 #define VERY_SIMPLE_BLOCK_PROFILE(x) VerySimpleProfilerSpace::VerySimpleBlock verySimpleProfilerBlock##__LINE__(x);
 #else
-#define VERY_SIMPLE_FUNC_PROFILE() c
+#define VERY_SIMPLE_FUNC_PROFILE()
 #define VERY_SIMPLE_BLOCK_PROFILE(x)
 #endif
